@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+<body>
+<h1>SUCCESS</h1>
+<div id="div01" class="myDiv" th:id="${hello}" th:class="${hello}" th:text="${hello}"> this is the welcome messages</div>
+<hr/>
+<div th:text="${hello}"></div>
+<div th:utext="${hello}"></div>
+<hr/>
+<h4 th:text="${user}"  th:each="user:${users}"></h4>
+<hr/>
+<h4>
+    <span th:each="user:${users}"> [[${user}]]</span>
+</h4>
+
+</body>
+</html>
