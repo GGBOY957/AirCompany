@@ -1,0 +1,11 @@
+2019-07-31 10:55:47.252  INFO 16196 --- [main] c.t.s.Springboot01ApplicationTests       : Starting Springboot01ApplicationTests on DESKTOP-K1TJMC7 with PID 16196 (started by uu in E:\ProjectsZone\GitClone\AirCompany\springboot02)
+2019-07-31 10:55:47.252 DEBUG 16196 --- [main] c.t.s.Springboot01ApplicationTests       : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-31 10:55:47.256  INFO 16196 --- [main] c.t.s.Springboot01ApplicationTests       : The following profiles are active: dev
+2019-07-31 10:56:03.982  INFO 16196 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-31 10:56:07.682  INFO 16196 --- [main] c.t.s.Springboot01ApplicationTests       : Started Springboot01ApplicationTests in 23.775 seconds (JVM running for 35.1)
+2019-07-31 10:56:09.788 TRACE 16196 --- [main] c.t.s.Springboot01ApplicationTests       : 这是trace日志...
+2019-07-31 10:56:09.788 DEBUG 16196 --- [main] c.t.s.Springboot01ApplicationTests       : this is debug log
+2019-07-31 10:56:09.788  INFO 16196 --- [main] c.t.s.Springboot01ApplicationTests       : this is info log
+2019-07-31 10:56:09.788  WARN 16196 --- [main] c.t.s.Springboot01ApplicationTests       : this is warn log
+2019-07-31 10:56:09.788 ERROR 16196 --- [main] c.t.s.Springboot01ApplicationTests       : this is error log
+2019-07-31 10:56:09.850  INFO 16196 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

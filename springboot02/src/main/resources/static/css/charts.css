@@ -6,17 +6,17 @@
     vertical-align:middle;
     color: #2c2c2c;
     font-size:18px;
-    font-weight:bold
+    font-weight:bold;
 }
 
 .tdtop_son{
+    text-decoration:underline;
     text-align:center;
     vertical-align:middle;
-    font-weight:bold
+    font-weight:bold;
 }
 
 .userlist{
     border-bottom: #3C4049 outset 1px;
     font-size:10px;
-
 }

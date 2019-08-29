@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.jeff.springmvc.mapper.UserMapper">
+
+    <!-- 添加用户 -->
+    <insert id="insertUser" parameterType="User" >
+        <!-- 使用动态sql，通过if判断，满足条件进行sql拼接 -->
+        <if test="username != null and password != null">
+            INSERT INTO user(username, password)
+            VALUES(#{username}, #{password})
+        </if>
+    </insert>
+</mapper>
